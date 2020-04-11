@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TPAEDII"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tiago/workspace/TPAEDII/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tiago/workspace/TPAEDII/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TPAEDII">
+				<Option output="/home/tiago/workspace/TPAEDII/cmake-build-debug/TPAEDII" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiago/workspace/TPAEDII/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 TPAEDII"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TPAEDII/fast">
+				<Option output="/home/tiago/workspace/TPAEDII/cmake-build-debug/TPAEDII" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiago/workspace/TPAEDII/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 TPAEDII/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tiago/workspace/TPAEDII/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tiago/workspace/TPAEDII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tiago/workspace/TPAEDII/includes/auxiliary.h">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/includes/certainty.h">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/includes/line.h">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/includes/morph.h">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/includes/parser.h">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/includes/root.h">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/includes/size.h">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/includes/word.h">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/main.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/src/histogram.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/src/models/certainty.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/src/models/line.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/src/models/morpho.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/src/models/root.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/src/models/size.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/src/models/word.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/src/parser.c">
+			<Option target="TPAEDII"/>
+		</Unit>
+		<Unit filename="/home/tiago/workspace/TPAEDII/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
